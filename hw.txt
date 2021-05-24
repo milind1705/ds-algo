@@ -1,0 +1,10 @@
+Reverse of a String.
+Factorial of a number
+Palindrome. 
+Fibonacci Series. 
+Prime Factors
+Subsets of a Set.
+
+
+Write Get function/method for the above ( Iterative & Recursive) 
+
