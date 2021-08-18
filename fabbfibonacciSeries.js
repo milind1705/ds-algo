@@ -14,6 +14,6 @@ fibonacci(12);
 
 //second try
 
-function fibonacci(n){
+// function fibonacci(n){
     
-}
+// }
