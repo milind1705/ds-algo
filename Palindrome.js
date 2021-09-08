@@ -7,18 +7,31 @@
 
 // palindrome(121);
 
-function palindrome(n){
-    var newString = "";
-   for(let i= n.length-1; i>= 0; i--){
-       newString += n[i]
-       console.log(newString)
-       return newString;
-   }
-   if(n === newString){
-       return true;
-   } else {
-       return false
-   }
-};
+// function palindrome(n){
+//     var newString = "";
+//    for(let i= n.length-1; i>= 0; i--){
+//        newString += n[i]
+//        console.log(newString)
+//        return newString;
+//    }
+//    if(n === newString){
+//        return true;
+//    } else {
+//        return false
+//    }
+// };
 
-palindrome("121")
+// console.log(palindrome("love"))
+
+function palindrome(str){
+    const length = str.length;
+    for(let i = 0; i < length/2; i++ ){
+       //  console.log(str[ length-1 - i])
+        //console.log(str[i])
+        if(str[i] != str[length -1 -i]){
+            return "this is not palindrome"
+        } else return "this is palindrome"
+    }
+}
+
+console.log(palindrome("12345678987654321"))

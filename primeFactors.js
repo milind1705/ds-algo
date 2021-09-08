@@ -28,4 +28,4 @@ function primeFactors(n){
   
 };
 
-primeFactors(24);
+primeFactors(625);
