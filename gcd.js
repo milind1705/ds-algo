@@ -13,4 +13,4 @@ function greatestCommonDivisor(a, b){
     console.log(greatestDivisor);
 }
 
-greatestCommonDivisor(14, 21)
+greatestCommonDivisor(14, 42)
